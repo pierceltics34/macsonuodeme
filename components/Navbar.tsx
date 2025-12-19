@@ -29,7 +29,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-xl md:text-2xl font-bold text-secondary hover:text-secondary-dark transition-colors duration-150 z-20 flex-shrink-0 -ml-10 md:-ml-16 lg:-ml-24"
+            className="text-xl md:text-2xl font-bold text-secondary hover:text-secondary-dark transition-colors duration-150 z-20 flex-shrink-0 ml-0 md:-ml-16 lg:-ml-24"
           >
             macsonuodeme.com
           </Link>
