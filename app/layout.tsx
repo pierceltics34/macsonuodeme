@@ -21,7 +21,10 @@ export const metadata: Metadata = {
   keywords: ["maç sonu ödemeli", "nesine", "bilyoner", "iddaa", "kupon"],
   authors: [{ name: "macsonuodeme.com" }],
   icons: {
-    icon: "/logo.png",
+    icon: [
+      { url: "/logo.png", sizes: "any" },
+      { url: "/logo.png", type: "image/png" },
+    ],
     shortcut: "/logo.png",
     apple: "/logo.png",
   },

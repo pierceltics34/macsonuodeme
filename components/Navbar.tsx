@@ -30,16 +30,15 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="z-20 flex-shrink-0 ml-0 md:-ml-16 lg:-ml-24 hover:opacity-80 transition-opacity duration-150 flex items-center justify-center h-full py-2"
+            className="z-20 flex-shrink-0 ml-0 md:-ml-16 lg:-ml-24 hover:opacity-80 transition-opacity duration-150 flex items-center justify-center"
           >
-            <div className="bg-white rounded-lg px-3 py-2 flex items-center justify-center h-full">
+            <div className="bg-white rounded-lg px-2 md:px-3 py-1.5 md:py-2 flex items-center justify-center h-12 md:h-16">
               <Image
                 src="/logo.png"
                 alt="macsonuodeme.com"
-                width={180}
-                height={50}
-                className="h-8 md:h-10 w-auto object-contain"
-                style={{ mixBlendMode: 'normal' }}
+                width={240}
+                height={60}
+                className="h-10 md:h-14 w-auto object-contain"
                 priority
                 unoptimized
               />
