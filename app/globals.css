@@ -21,18 +21,18 @@
   }
   
   .navbar-height {
-    height: 72px;
+    height: 180px;
   }
   
   @media (min-width: 768px) {
     .navbar-height {
-      height: 88px;
+      height: 220px;
     }
   }
   
   @media (min-width: 1024px) {
     .navbar-height {
-      height: 100px;
+      height: 280px;
     }
   }
 }
