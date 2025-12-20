@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   description: "Şeffaf süreç, hızlı iletişim ve premium destek ile maç sonu ödemeli yasal kupon hizmeti.",
   keywords: ["maç sonu ödemeli", "nesine", "bilyoner", "iddaa", "kupon"],
   authors: [{ name: "macsonuodeme.com" }],
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     type: "website",
     locale: "tr_TR",
@@ -27,6 +32,14 @@ export const metadata: Metadata = {
     siteName: "macsonuodeme.com",
     title: "macsonuodeme.com - Maç Sonu Ödemeli Yasal Kupon",
     description: "Şeffaf süreç, hızlı iletişim ve premium destek ile maç sonu ödemeli yasal kupon hizmeti.",
+    images: [
+      {
+        url: "/logo.png",
+        width: 180,
+        height: 50,
+        alt: "macsonuodeme.com",
+      },
+    ],
   },
   robots: {
     index: true,

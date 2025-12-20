@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Button from "./Button";
@@ -29,9 +30,17 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-xl md:text-2xl font-bold text-secondary hover:text-secondary-dark transition-colors duration-150 z-20 flex-shrink-0 ml-0 md:-ml-16 lg:-ml-24"
+            className="z-20 flex-shrink-0 ml-0 md:-ml-16 lg:-ml-24 hover:opacity-80 transition-opacity duration-150"
           >
-            macsonuodeme.com
+            <Image
+              src="/logo.png"
+              alt="macsonuodeme.com"
+              width={180}
+              height={50}
+              className="h-10 md:h-12 w-auto"
+              priority
+              unoptimized
+            />
           </Link>
 
           {/* Desktop Menu - Ortalanmış */}
