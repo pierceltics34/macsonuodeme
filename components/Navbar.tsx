@@ -31,23 +31,23 @@ export default function Navbar() {
           <div 
             className="flex-shrink-0 flex items-center justify-start h-full"
             style={{
-              width: 'clamp(160px, 22vw, 340px)'
+              width: 'clamp(200px, 28vw, 420px)'
             }}
           >
             <Link
               href="/"
               className="hover:opacity-80 transition-opacity duration-150 flex items-center justify-start h-full w-full"
             >
-              <div className="bg-white rounded-lg px-2 sm:px-3 lg:px-4 py-1 sm:py-1.5 lg:py-2 flex items-center justify-center h-full">
+              <div className="bg-white rounded-lg px-3 sm:px-4 lg:px-5 py-1.5 sm:py-2 lg:py-2.5 flex items-center justify-center h-full">
                 <Image
                   src="/mslogo.png"
                   alt="macsonuodeme.com"
-                  width={600}
-                  height={150}
+                  width={1000}
+                  height={250}
                   className="w-auto object-contain block"
                   style={{ 
-                    height: 'clamp(44px, 4.5vw, 72px)',
-                    maxHeight: '72px',
+                    height: 'clamp(64px, 10vw, 92px)',
+                    maxHeight: '92px',
                     maxWidth: 'none'
                   }}
                   priority
