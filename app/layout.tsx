@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   authors: [{ name: "macsonuodeme.com" }],
   icons: {
     icon: [
-      { url: "/logo.png", sizes: "any" },
-      { url: "/logo.png", type: "image/png" },
+      { url: "/mslogo.png", sizes: "any" },
+      { url: "/mslogo.png", type: "image/png" },
     ],
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    shortcut: "/mslogo.png",
+    apple: "/mslogo.png",
   },
   openGraph: {
     type: "website",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     description: "Şeffaf süreç, hızlı iletişim ve premium destek ile maç sonu ödemeli yasal kupon hizmeti.",
     images: [
       {
-        url: "/logo.png",
-        width: 180,
-        height: 50,
+        url: "/mslogo.png",
+        width: 300,
+        height: 80,
         alt: "macsonuodeme.com",
       },
     ],
