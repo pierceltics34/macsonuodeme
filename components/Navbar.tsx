@@ -26,24 +26,36 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-soft">
       <div className="container-custom">
-        <div className="relative flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
-          <Link
-            href="/"
-            className="z-20 flex-shrink-0 ml-0 md:-ml-16 lg:-ml-24 hover:opacity-80 transition-opacity duration-150 flex items-center justify-center h-full"
+        <div className="relative flex items-center justify-between navbar-height px-3 sm:px-4 lg:px-6">
+          {/* Logo Brand Wrapper - Sabit Genişlik */}
+          <div 
+            className="flex-shrink-0 flex items-center justify-start h-full"
+            style={{
+              width: 'clamp(160px, 22vw, 340px)'
+            }}
           >
-            <div className="bg-white rounded-lg px-2.5 md:px-4 py-1.5 md:py-2 flex items-center justify-center h-full min-w-[160px] md:min-w-[220px]">
-              <Image
-                src="/mslogo.png"
-                alt="macsonuodeme.com"
-                width={450}
-                height={110}
-                className="h-14 md:h-16 w-auto object-contain"
-                priority
-                unoptimized
-              />
-            </div>
-          </Link>
+            <Link
+              href="/"
+              className="hover:opacity-80 transition-opacity duration-150 flex items-center justify-start h-full w-full"
+            >
+              <div className="bg-white rounded-lg px-2 sm:px-3 lg:px-4 py-1 sm:py-1.5 lg:py-2 flex items-center justify-center h-full">
+                <Image
+                  src="/mslogo.png"
+                  alt="macsonuodeme.com"
+                  width={600}
+                  height={150}
+                  className="w-auto object-contain block"
+                  style={{ 
+                    height: 'clamp(44px, 4.5vw, 72px)',
+                    maxHeight: '72px',
+                    maxWidth: 'none'
+                  }}
+                  priority
+                  unoptimized
+                />
+              </div>
+            </Link>
+          </div>
 
           {/* Desktop Menu - Ortalanmış */}
           <div className="hidden md:flex items-center gap-8 lg:gap-10 absolute left-1/2 transform -translate-x-1/2 z-10">
@@ -63,7 +75,7 @@ export default function Navbar() {
           </div>
 
           {/* Canlı Destek Butonu */}
-          <div className="hidden md:block z-10">
+          <div className="hidden md:block z-10 flex-shrink-0">
             <Button onClick={openCrispChat} variant="secondary">
               Canlı Destek
             </Button>

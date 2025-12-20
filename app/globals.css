@@ -19,5 +19,21 @@
   .container-custom {
     @apply max-w-[1120px] mx-auto px-4 sm:px-6 lg:px-8;
   }
+  
+  .navbar-height {
+    height: 64px;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-height {
+      height: 76px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar-height {
+      height: 88px;
+    }
+  }
 }
 
