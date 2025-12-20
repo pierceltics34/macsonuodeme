@@ -27,27 +27,27 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-soft">
       <div className="container-custom">
         <div className="relative flex items-center justify-between navbar-height px-3 sm:px-4 lg:px-6">
-          {/* Logo Brand Wrapper - Sabit Genişlik */}
+          {/* Logo Brand Wrapper - Sol Tarafa Hizalı */}
           <div 
             className="flex-shrink-0 flex items-center justify-start h-full"
             style={{
-              width: 'clamp(300px, 40vw, 600px)'
+              width: 'clamp(180px, 25vw, 320px)'
             }}
           >
             <Link
               href="/"
               className="hover:opacity-80 transition-opacity duration-150 flex items-center justify-start h-full w-full"
             >
-              <div className="bg-white rounded-lg px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 flex items-center justify-center h-full">
+              <div className="bg-white rounded-lg px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 lg:py-2.5 flex items-center justify-center h-full">
                 <Image
                   src="/mslogo.png"
                   alt="macsonuodeme.com"
-                  width={2000}
-                  height={500}
+                  width={800}
+                  height={200}
                   className="w-auto object-contain block"
                   style={{ 
-                    height: 'clamp(160px, 20vw, 260px)',
-                    maxHeight: '260px',
+                    height: 'clamp(48px, 6vw, 72px)',
+                    maxHeight: '72px',
                     maxWidth: 'none'
                   }}
                   priority
